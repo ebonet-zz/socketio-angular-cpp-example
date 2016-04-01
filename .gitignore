@@ -1,0 +1,5 @@
+server/node_modules
+client/socket/*
+client/socket-src
+client/client.dSYM
+client/client
