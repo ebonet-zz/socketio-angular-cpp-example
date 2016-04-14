@@ -22,6 +22,7 @@ After running main.js, open your web browser and navigate to `localhost:3000`
   cd client/socket
   cmake ./
   make install
+  cd ../
   g++ -std=c++11  app.cpp -Isocket/build/include/  \
     socket/build/lib/Release/libsioclient.a -o client \
     -lboost_system -lboost_thread -lpthread

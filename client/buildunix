@@ -1,0 +1,4 @@
+# bin/sh
+g++ -std=c++11  app.cpp -Isocket/build/include/  \
+  socket/build/lib/Release/libsioclient.a  \
+  -lboost_system -lboost_thread -lpthread -o $1
