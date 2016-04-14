@@ -2,7 +2,7 @@
   'use strict';
 
   var app = angular.module('socket-example',['btford.socket-io'])
-
+  
 
   app.controller('MainController', ['$scope','SocketService','$log',
     function($scope,socket, $log){
