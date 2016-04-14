@@ -2,9 +2,9 @@
 #include <string>
 #include <sstream>
 
-#include "socket/include/sio_client.h"
-#include "socket/include/sio_message.h"
-#include "socket/include/sio_socket.h"
+#include <sio_client.h>
+#include <sio_message.h>
+#include <sio_socket.h>
 
 using namespace std;
 
